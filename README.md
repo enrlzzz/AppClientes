@@ -1,83 +1,82 @@
 👤 AppClientes
-A simple and intuitive Java command-line application designed to manage a list of clients for a candy business (or any general context). This project was developed as part of a programming class, focusing on object-oriented design and user interaction via the terminal.
+A Java-based terminal application to register and view client names — simple, intuitive, and built for learning.
 
-📋 Overview
-AppDoces allows users to:
+📘 Developed as a class project to reinforce Java fundamentals like loops, conditionals, user input, and ArrayLists.
 
-✅ Register new client names
+📦 Features
+✅ Register clients by name
 
-📄 View a list of all registered clients
+📋 List all clients in the terminal
 
-🚪 Exit the system gracefully
+❌ Exit safely when you're done
 
-All operations are performed through a simple menu-driven interface that runs entirely in the terminal.
+💡 Fully interactive menu system
 
 🧠 How It Works
-When launched, the application presents a menu with three options:
+When you run the app, it displays:
 
-markdown
-Copiar
-Editar
+
+--- CLIENT REGISTRATION SYSTEM ---
 Menu:
 1. Register Client
 2. View Clients
 3. Exit
-Option 1 allows the user to input and store a client’s name.
+   
+🔹 Option 1: User inputs a name → it’s stored in memory
+🔹 Option 2: Lists all registered clients (if any)
+🔹 Option 3: Gracefully exits the program
 
-Option 2 displays all previously registered clients (if any).
+📌 Clients are stored in a dynamic ArrayList<String> — no database or file storage involved.
 
-Option 3 ends the application.
+🛠️ Installation & Setup
+Clone the project and run it with Java:
 
-The client list is stored in memory using an ArrayList<String>. No external database or file persistence is used—this is a runtime-only client registry.
-
-💻 Terminal Execution
-To run this app from the terminal, follow these steps:
-
-bash
-Copiar
-Editar
-javac AppDoces.java
-java AppDoces
-You’ll see a welcome message and can begin using the menu options immediately.
-
-🛠️ Installation
-Clone this repository to your local machine:
-
-bash
-Copiar
-Editar
-git clone https://github.com/YourUsername/AppClientes.git
+git clone https://github.com/YourUsername/AppDoces.git
 cd AppDoces
 javac AppDoces.java
 java AppDoces
-⚠️ Replace YourUsername with your actual GitHub username if you're forking or uploading this to your own repository.
 
-📦 Requirements
-Java JDK 8 or later installed
+⚠️ Make sure Java JDK 8+ is installed and properly configured in your PATH.
 
-A terminal or command prompt
+💻 Requirements
+✅ Java JDK 8 or newer
 
-📚 Educational Value
-This app is perfect for:
+✅ Terminal or Command Prompt
 
-Beginners learning Java
+🧪 Example Run
+Bem vindo ao sistema de cadastro de clientes!
+Você pode cadastrar e consultar clientes.
 
-Practicing input/output handling with Scanner
+Menu:
+1. Cadastrar Cliente
+2. Consultar Clientes
+3. Sair
+Escolha uma opção:
 
-Understanding control flow and loops
+📝 Client names are stored only during runtime (memory-based).
 
-Learning how ArrayList works
+🌱 Ideal For
+This project is perfect if you're learning:
 
-🚀 Future Improvements
-This app could be extended with:
+ArrayList usage
 
-File or database storage
+Scanner for user input
 
-Client search/filtering by name
+Control flow: if, switch, for
 
-More client attributes (email, age, etc.)
+Terminal interaction in Java
 
-A GUI interface using JavaFX or Swing
+🚀 Ideas for Expansion
+Want to take this project further?
+
+💾 Add file/database storage
+
+🔍 Enable search/filtering
+
+📊 Collect more data (email, age, etc.)
+
+🖥️ Create a GUI (Swing or JavaFX)
 
 🤝 Contribution
-Want to collaborate or suggest improvements? Fork this repo, improve it, and submit a pull request! Let's make it sweeter together 🍭
+Pull requests are welcome! Fork the repo, make your changes, and submit a PR.
+Let’s build this project together — one candy client at a time 🍭
