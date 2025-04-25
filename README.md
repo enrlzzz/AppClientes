@@ -31,7 +31,7 @@ Menu:
 🛠️ Installation & Setup
 Clone the project and run it with Java:
 
-git clone https://github.com/YourUsername/AppDoces.git
+git clone https://github.com/YourUsername/AppClientes.git
 cd AppDoces
 javac AppDoces.java
 java AppDoces
