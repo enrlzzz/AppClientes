@@ -96,7 +96,7 @@ public class AppDoces {
                     }
                     break;
                 case 3:
-                    System.out.println("Saindo...");
+                    System.out.println("Saindo....");
                     return;
 
                     default:
